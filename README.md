@@ -2,7 +2,7 @@
 
 ## Équipe
 
-Stéphanie Denis (steden001) et Emeline Marquès (emmar009)
+Stéphanie Denis (steden001) et Emeline Marquès (emmar009)e
 
 ## Description
 
