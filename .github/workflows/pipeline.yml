@@ -17,10 +17,7 @@ jobs:
       - run: npm version patch -m "[RELEASE] %s"
       - run: git push
       - run: git tag
-      - run: git push --tags      
-        - run: git push --tags  
-      - run: git push --tags      
-        
+      - run: git push --tags
   publish:
     runs-on: ubuntu-latest
     if: "startsWith(github.event.head_commit.message, '[RELEASE]')"
@@ -29,10 +26,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 12.x
-          registry-url: 'https://registry.npmjs.org'
       - run: npm install
-      - run: npm ci
-      - run: npm run build-lib
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
