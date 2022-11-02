@@ -1,12 +1,12 @@
 {
   "name": "componentsstephaniedenis",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React components ",
   "main": "./lib/index.js",
-  "files":[
+  "files": [
     "/lib"
   ],
-   "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
@@ -50,11 +50,9 @@
     "url": "git+https://github.com/Stephaniedenis/fxcomponents_stdens001.git"
   },
   "author": "stephanie Denis",
-  "license": "MIT", 
-  
-   
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Stephaniedenis/fxcomponents_stdens001/issues"
   },
-  "homepage": "https://github.com/Stephaniedenis/fxcomponents_stdens001#readme" 
+  "homepage": "https://github.com/Stephaniedenis/fxcomponents_stdens001#readme"
 }
