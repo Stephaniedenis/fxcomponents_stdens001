@@ -1,6 +1,6 @@
 {
   "name": "componentsstephaniedenis",
-  "version": "1.24.17",
+  "version": "1.24.18",
   "description": "React components ",
   "main": "./lib/index.js",
   "files": [
