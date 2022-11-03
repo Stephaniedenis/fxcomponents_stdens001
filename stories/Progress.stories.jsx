@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-import { Progress } from '../components/Progress/Progress';
+import { Progress } from '../lib/components/Progress/Progress';
 
 export default {
   title: 'Components-TP1/Progress',
@@ -9,7 +9,6 @@ export default {
 };
 
 const Template = (args) => <Progress {...args} />;
-
 
 export const Petit = Template.bind({});
 Petit.args = {

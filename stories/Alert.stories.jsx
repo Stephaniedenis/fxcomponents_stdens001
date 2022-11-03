@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-import { Alert } from '../components/Alert/Alert';
+import { Alert } from '../lib/components/Alert/Alert';
 
 export default{
     title:'Components-TP1/Alert',

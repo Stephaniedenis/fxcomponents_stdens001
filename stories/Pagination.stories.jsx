@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-import { Pagination } from '../components/Pagination/Pagination';
+import { Pagination } from '../lib/components/Pagination/Pagination';
 
 export default{
     title:'Components-TP1/Pagination',
@@ -25,5 +25,3 @@ Trente.args={
     defaultCurrent: 1,
     total: 300
 };
-
-

@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-import { Checkbox } from '../components/Checkbox/Checkbox';
+import { Checkbox } from '../lib/components/Checkbox/Checkbox';
 
 export default{
     title:'Components-TP1/Checkbox',

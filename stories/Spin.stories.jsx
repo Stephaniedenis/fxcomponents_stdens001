@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-import { Spin } from '../components/Spin/Spin';
+import { Spin } from '../lib/components/Spin/Spin';
 
 export default{
     title: 'Components-TP1/Spin',

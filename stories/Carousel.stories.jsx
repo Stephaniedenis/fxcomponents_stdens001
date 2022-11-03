@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-import { Carousel } from '../components/Carousel/Carousel';
+import { Carousel } from '../lib/components/Carousel/Carousel';
 
 export default{
     title: 'Components-TP1/Carousel',
