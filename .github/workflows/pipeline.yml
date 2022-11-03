@@ -7,14 +7,14 @@ on:
 jobs:
   versionpatch:
     runs-on: ubuntu-latest
-    if: "!startsWith(github.event.head_commit.message, '[RELEASE]')"
+    if: "startsWith(github.event.head_commit.message, '[PATCH]')"
     steps:
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
       - run: git config --global user.name '${{ secrets.GH_PUBLIC_NAME }}'
       - run: git config --global user.email '${{ secrets.GH_EMAIL }}'
-      - run: npm version patch -m "%s"
+      - run: npm version patch -m "[VERSION PATCH] %s"
       - run: git push
       - run: git tag
       - run: git push --tags
