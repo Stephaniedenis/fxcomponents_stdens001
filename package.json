@@ -1,6 +1,6 @@
 {
   "name": "componentsstephaniedenis",
-  "version": "1.24.38",
+  "version": "1.24.39",
   "description": "React components cours 420-314-fx",
   "main": "./lib/index.js",
   "files": [
