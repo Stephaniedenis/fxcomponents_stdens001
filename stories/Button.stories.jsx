@@ -33,3 +33,12 @@ Danger.args={
     disabled:false,
     text:'Danger'
 }
+
+export const Patate = Template.bind({});
+Patate.args={
+    variant: 'outlined',
+    color:'warning',
+    size:'medium',
+    disabled:false,
+    text:'Patate'
+}
